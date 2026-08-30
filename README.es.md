@@ -1,8 +1,8 @@
-# Restaurant Sales Analysis
+# Análisis Comercial de Taste of the World Café
 
 ## Descripción
 
-Este proyecto analiza los pedidos de Taste of the World Café para evaluar el rendimiento de sus productos y categorías mediante Excel, SQL y Power BI.
+Este proyecto analiza los pedidos de "Taste of the World Café" para evaluar el rendimiento de sus productos y categorías mediante Excel, SQL y Power BI.
 
 ## Pregunta de negocio
 
