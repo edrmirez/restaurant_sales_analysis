@@ -50,6 +50,6 @@ This is a one-to-many relationship: one menu item can appear in multiple order l
 * Any identified issues and data-cleaning decisions will be documented.
 * This data dictionary represents an initial review and may be updated after the data has been validated in Excel and SQL.
 
-## Documentación
+## Documentation
 
 * [English](data_dictionary.md) | [Español](data_dictionary.es.md)
