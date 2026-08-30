@@ -30,4 +30,6 @@ Taste of the World Café necesita evaluar el desempeño de su nuevo menú para i
 * No contiene costos, por lo que no permite calcular utilidad o margen.
 * Los resultados muestran asociaciones y no relaciones causales.
 
+## Documentación
 
+* [Diccionario de Datos](docs/data_dictionary.es.md)
