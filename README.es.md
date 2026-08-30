@@ -32,4 +32,5 @@ Taste of the World Café necesita evaluar el desempeño de su nuevo menú para i
 
 ## Documentación
 
+* [English](README.md) | [Español](README.es.md)
 * [Diccionario de Datos](docs/data_dictionary.es.md)
