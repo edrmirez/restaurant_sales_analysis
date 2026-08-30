@@ -32,4 +32,5 @@ Taste of the World Café needs to evaluate the performance of its new menu to id
 
 ## Documentation
 
+* [English](README.md) | [Español](README.es.md)
 * [Data Dictionary](docs/data_dictionary.md)
