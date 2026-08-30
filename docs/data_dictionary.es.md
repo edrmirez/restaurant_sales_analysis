@@ -49,3 +49,7 @@ La relación es de uno a muchos: un producto puede aparecer en múltiples línea
 - Los archivos CSV originales no se modificarán.
 - Los problemas detectados y las decisiones de limpieza quedarán documentados.
 - Este diccionario corresponde a una revisión inicial y podrá actualizarse después de validar los datos en Excel y SQL.
+
+## Documentación
+
+- [English](data_dictionary.md) | [Español](data_dictionary.es.md)
