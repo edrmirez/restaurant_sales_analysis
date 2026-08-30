@@ -29,3 +29,7 @@ Taste of the World Café needs to evaluate the performance of its new menu to id
 * The dataset does not contain customer identifiers.
 * It does not include cost data, so profit and profit margins cannot be calculated.
 * The results show associations rather than causal relationships.
+
+## Documentation
+
+* [Data Dictionary](docs/data_dictionary.md)
