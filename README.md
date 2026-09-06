@@ -46,5 +46,21 @@ be enabled to import the CSV files.
 
 ## Documentation
 
-* [English](README.md) | [Español](README.es.md)
-* [Data Dictionary](docs/data_dictionary.md)
+### SQL Scripts
+
+* [Database Creation and Data Import](sql/01_create_database.sql)
+* [Data Validation](sql/02_data_validation.sql)
+
+### Step-by-Step Guides
+
+* [Database Creation Guide — English](docs/guides/01_create_database_guide%28EN%29.docx)
+* [Data Validation Guide — English](docs/guides/02_data_validation_guide%28EN%29.docx)
+
+### Data Quality Review
+
+* [Data Quality Review — English](excel/data_quality_review%28EN%29.xlsx)
+
+### Additional Documentation
+
+* [Data Dictionary — English](docs/data_dictionary.md)
+* [Spanish Project Documentation](README.es.md)
