@@ -45,10 +45,11 @@ This is a one-to-many relationship: one menu item can appear in multiple order l
 
 ## Notes
 
-* The data types still need to be validated.
-* The original CSV files will not be modified.
-* Any identified issues and data-cleaning decisions will be documented.
-* This data dictionary represents an initial review and may be updated after the data has been validated in Excel and SQL.
+* Data types were validated using Excel and MySQL.
+* The original CSV files were preserved without modification.
+* A total of 137 order lines contain a missing `item_id`; these values were preserved as null.
+* All non-null product identifiers have a matching record in `menu_items`.
+* The identified data-quality issues and their treatment are documented in the Excel review and SQL validation script.
 
 ## Documentation
 
