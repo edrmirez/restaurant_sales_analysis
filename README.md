@@ -24,6 +24,20 @@ Taste of the World Café needs to evaluate the performance of its new menu to id
 * SQL: Data storage, cleaning, validation, and analysis.
 * Power BI: Visualization of key metrics and findings.
 
+## Running the SQL Scripts
+
+Run the SQL scripts in the following order:
+
+1. `sql/01_create_database.sql`
+2. `sql/02_data_validation.sql`
+
+Before running `01_create_database.sql`, replace the paths used by
+`LOAD DATA LOCAL INFILE` with the absolute location of the CSV files
+inside the `data/raw` directory on your computer.
+
+MySQL 8.0 or later is recommended. The `local_infile` option must also
+be enabled to import the CSV files.
+
 ## Limitations
 
 * The dataset does not contain customer identifiers.
