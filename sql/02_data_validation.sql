@@ -116,8 +116,22 @@ GROUP BY order_id
 HAVING COUNT(DISTINCT order_date) > 1
     OR COUNT(DISTINCT order_time) > 1;
 
--- EN: Randomly selects one 14-item order and one single-item order, then displays all their order lines.
--- ES: Selecciona al azar un pedido de 14 productos y uno de un producto, y luego muestra todas sus líneas.
+-- EN: Calculates the minimum, average, and maximum number of items per order.
+-- ES: Calcula la cantidad mínima, promedio y máxima de productos por pedido.
+
+WITH order_sizes AS (
+    SELECT order_id, COUNT(*) AS item_count
+    FROM order_details
+    GROUP BY order_id
+)
+SELECT
+    MIN(item_count) AS minimum_items,
+    ROUND(AVG(item_count), 2) AS average_items,
+    MAX(item_count) AS maximum_items
+FROM order_sizes;
+
+-- EN: Randomly selects one 14-item order and one single-item order, then displays all their order lines and product information for manual verification.
+-- ES: Selecciona al azar un pedido de 14 productos y uno de un producto, y luego muestra todas sus líneas e información de productos para su verificación manual.
 
 WITH order_sizes AS (
     SELECT
