@@ -45,10 +45,11 @@ La relación es de uno a muchos: un producto puede aparecer en múltiples línea
 
 ## Notas
 
-- Los tipos de datos todavía deben validarse.
-- Los archivos CSV originales no se modificarán.
-- Los problemas detectados y las decisiones de limpieza quedarán documentados.
-- Este diccionario corresponde a una revisión inicial y podrá actualizarse después de validar los datos en Excel y SQL.
+- Los tipos de datos fueron validados mediante Excel y MySQL.
+- Los archivos CSV originales se conservaron sin modificaciones.
+- Un total de 137 líneas de pedido contienen un `item_id` faltante; estos valores se conservaron como nulos.
+- Todos los identificadores de producto no nulos tienen una correspondencia en `menu_items`.
+- Los problemas de calidad detectados y su tratamiento están documentados en la revisión de Excel y en el script de validación SQL.
 
 ## Documentación
 
