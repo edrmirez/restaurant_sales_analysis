@@ -46,5 +46,21 @@ Se recomienda utilizar MySQL 8.0 o una versión posterior. La opción
 
 ## Documentación
 
-* [English](README.md) | [Español](README.es.md)
-* [Diccionario de datos](docs/data_dictionary.es.md)
+### Scripts SQL
+
+* [Creación de la base de datos e importación](sql/01_create_database.sql)
+* [Validación de los datos](sql/02_data_validation.sql)
+
+### Guías paso a paso
+
+* [Guía de creación de la base de datos — Español](docs/guides/01_create_database_guide%28ES%29.docx)
+* [Guía de validación de datos — Español](docs/guides/02_data_validation_guide%28ES%29.docx)
+
+### Revisión de calidad de datos
+
+* [Revisión de calidad de datos — Español](excel/data_quality_review%28ES%29.xlsx)
+
+### Documentación adicional
+
+* [Diccionario de datos — Español](docs/data_dictionary.es.md)
+* [Documentación del proyecto en inglés](README.md)
