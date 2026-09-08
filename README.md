@@ -30,6 +30,8 @@ Run the SQL scripts in the following order:
 
 1. `sql/01_create_database.sql`
 2. `sql/02_data_validation.sql`
+3. `sql/03_data_preparation.sql`
+4. `sql/04_business_analysis.sql`
 
 Before running `01_create_database.sql`, replace the paths used by
 `LOAD DATA LOCAL INFILE` with the absolute location of the CSV files
@@ -50,11 +52,8 @@ be enabled to import the CSV files.
 
 * [Database Creation and Data Import](sql/01_create_database.sql)
 * [Data Validation](sql/02_data_validation.sql)
-
-### Step-by-Step Guides
-
-* [Database Creation Guide — English](docs/guides/01_create_database_guide%28EN%29.docx)
-* [Data Validation Guide — English](docs/guides/02_data_validation_guide%28EN%29.docx)
+* [Data Preparation](sql/03_data_preparation.sql)
+* [Business Analysis](sql/04_business_analysis.sql)
 
 ### Data Quality Review
 
