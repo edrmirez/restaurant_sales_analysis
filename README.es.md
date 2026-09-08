@@ -30,6 +30,8 @@ Ejecute los scripts SQL en el siguiente orden:
 
 1. `sql/01_create_database.sql`
 2. `sql/02_data_validation.sql`
+3. `sql/03_data_preparation.sql`
+4. `sql/04_business_analysis.sql`
 
 Antes de ejecutar `01_create_database.sql`, reemplace las rutas utilizadas
 por `LOAD DATA LOCAL INFILE` con la ubicación absoluta de los archivos CSV
@@ -50,11 +52,8 @@ Se recomienda utilizar MySQL 8.0 o una versión posterior. La opción
 
 * [Creación de la base de datos e importación](sql/01_create_database.sql)
 * [Validación de los datos](sql/02_data_validation.sql)
-
-### Guías paso a paso
-
-* [Guía de creación de la base de datos — Español](docs/guides/01_create_database_guide%28ES%29.docx)
-* [Guía de validación de datos — Español](docs/guides/02_data_validation_guide%28ES%29.docx)
+* [Preparación de los datos](sql/03_data_preparation.sql)
+* [Análisis comercial](sql/04_business_analysis.sql)
 
 ### Revisión de calidad de datos
 
