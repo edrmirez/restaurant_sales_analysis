@@ -32,6 +32,7 @@ Run the SQL scripts in the following order:
 2. `sql/02_data_validation.sql`
 3. `sql/03_data_preparation.sql`
 4. `sql/04_business_analysis.sql`
+5. `sql/05_powerbi_view.sql`
 
 Before running `01_create_database.sql`, replace the paths used by
 `LOAD DATA LOCAL INFILE` with the absolute location of the CSV files
@@ -54,6 +55,16 @@ be enabled to import the CSV files.
 * [Data Validation](sql/02_data_validation.sql)
 * [Data Preparation](sql/03_data_preparation.sql)
 * [Business Analysis](sql/04_business_analysis.sql)
+* [Power BI Data View](sql/05_powerbi_view.sql)
+
+### Power BI Dashboard
+
+* [Download the Power BI dashboard](powerbi/restaurant_sales_dashboard.pbix)
+
+The dashboard shows five key metrics and six charts covering daily revenue,
+category and product performance, and activity by weekday and hour.
+Revenue and units sold include only order lines with an identified product;
+the 137 lines with missing item IDs remain in the dataset.
 
 ### Data Quality Review
 
