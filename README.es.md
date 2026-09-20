@@ -32,6 +32,7 @@ Ejecute los scripts SQL en el siguiente orden:
 2. `sql/02_data_validation.sql`
 3. `sql/03_data_preparation.sql`
 4. `sql/04_business_analysis.sql`
+5. `sql/05_powerbi_view.sql`
 
 Antes de ejecutar `01_create_database.sql`, reemplace las rutas utilizadas
 por `LOAD DATA LOCAL INFILE` con la ubicación absoluta de los archivos CSV
@@ -54,6 +55,16 @@ Se recomienda utilizar MySQL 8.0 o una versión posterior. La opción
 * [Validación de los datos](sql/02_data_validation.sql)
 * [Preparación de los datos](sql/03_data_preparation.sql)
 * [Análisis comercial](sql/04_business_analysis.sql)
+* [Vista de datos para Power BI](sql/05_powerbi_view.sql)
+
+### Dashboard de Power BI
+
+* [Descargar el dashboard de Power BI](powerbi/restaurant_sales_dashboard.pbix)
+
+El dashboard presenta cinco indicadores y seis gráficos sobre ingresos
+diarios, rendimiento por categoría y producto, y actividad por día y hora.
+Los ingresos y las unidades vendidas incluyen solo líneas con un producto
+identificado; las 137 líneas sin ID de producto se conservan en los datos.
 
 ### Revisión de calidad de datos
 
