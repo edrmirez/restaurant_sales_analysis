@@ -55,16 +55,36 @@ be enabled to import the CSV files.
 * [Data Validation](sql/02_data_validation.sql)
 * [Data Preparation](sql/03_data_preparation.sql)
 * [Business Analysis](sql/04_business_analysis.sql)
-* [Power BI Data View](sql/05_powerbi_view.sql)
+* [Power BI Data Views](sql/05_powerbi_view.sql)
 
 ### Power BI Dashboard
 
-* [Download the Power BI dashboard](powerbi/restaurant_sales_dashboard.pbix)
+* [Download the Power BI report](powerbi/restaurant_sales_dashboard.pbix)
 
-The dashboard shows five key metrics and six charts covering daily revenue,
-category and product performance, and activity by weekday and hour.
-Revenue and units sold include only order lines with an identified product;
-the 137 lines with missing item IDs remain in the dataset.
+The report has two pages. **Sales Dashboard** presents five key metrics
+and six charts with date and category filters. **Key Insights** explores
+order size, product demand versus revenue, and the contribution of
+orders above the average known order value.
+
+The analysis covers January 1 to March 31, 2023. Known revenue and
+identified units exclude the 137 order lines with missing item IDs;
+those lines remain in the dataset.
+
+### Key Findings and Recommendations
+
+* **Order size:** 67.3% of orders contain one or two identified items.
+  Consider testing add-on offers for small orders and measuring the results.
+* **Products:** Hamburger leads identified units sold (622), while
+  Korean Beef Bowl leads known revenue (10,554.60). Review demand and
+  revenue separately when evaluating menu items.
+* **Order value:** 39.6% of orders exceed the average known order value
+  and generate 65.6% of known revenue. Monitor the distribution of order
+  values alongside the overall average.
+
+### Dashboard Images
+
+* [Sales Dashboard](images/Sales_Dashboard.png)
+* [Key Insights](images/Key_Insights.png)
 
 ### Data Quality Review
 
