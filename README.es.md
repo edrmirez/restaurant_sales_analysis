@@ -82,6 +82,11 @@ producto; esas líneas se conservan en los datos.
   conocido y genera el 65,6 % de los ingresos conocidos. Conviene revisar
   la distribución de los valores de pedido junto con el promedio general.
 
+### Imágenes del dashboard
+
+* [Panel de ventas](images/Sales_Dashboard.png)
+* [Hallazgos principales](images/Key_Insights.png)
+
 ### Revisión de calidad de datos
 
 * [Revisión de calidad de datos — Español](excel/data_quality_review%28ES%29.xlsx)
