@@ -55,16 +55,32 @@ Se recomienda utilizar MySQL 8.0 o una versión posterior. La opción
 * [Validación de los datos](sql/02_data_validation.sql)
 * [Preparación de los datos](sql/03_data_preparation.sql)
 * [Análisis comercial](sql/04_business_analysis.sql)
-* [Vista de datos para Power BI](sql/05_powerbi_view.sql)
+* [Vistas de datos para Power BI](sql/05_powerbi_view.sql)
 
 ### Dashboard de Power BI
 
-* [Descargar el dashboard de Power BI](powerbi/restaurant_sales_dashboard.pbix)
+* [Descargar el informe de Power BI](powerbi/restaurant_sales_dashboard.pbix)
 
-El dashboard presenta cinco indicadores y seis gráficos sobre ingresos
-diarios, rendimiento por categoría y producto, y actividad por día y hora.
-Los ingresos y las unidades vendidas incluyen solo líneas con un producto
-identificado; las 137 líneas sin ID de producto se conservan en los datos.
+El informe tiene dos páginas. **Sales Dashboard** presenta cinco indicadores
+y seis gráficos con filtros de fecha y categoría. **Key Insights** analiza
+el tamaño de los pedidos, la demanda frente a los ingresos por producto y
+la participación de los pedidos sobre el ticket promedio conocido.
+
+El análisis cubre del 1 de enero al 31 de marzo de 2023. Los ingresos
+conocidos y las unidades identificadas excluyen las 137 líneas sin ID de
+producto; esas líneas se conservan en los datos.
+
+### Hallazgos y recomendaciones
+
+* **Tamaño de pedido:** el 67,3 % de los pedidos contiene uno o dos
+  productos identificados. Se pueden probar ofertas complementarias
+  para pedidos pequeños y medir sus resultados.
+* **Productos:** Hamburger lidera en unidades identificadas (622),
+  mientras Korean Beef Bowl lidera en ingresos conocidos (10.554,60).
+  Conviene evaluar demanda e ingresos por separado.
+* **Valor de pedido:** el 39,6 % de los pedidos supera el ticket promedio
+  conocido y genera el 65,6 % de los ingresos conocidos. Conviene revisar
+  la distribución de los valores de pedido junto con el promedio general.
 
 ### Revisión de calidad de datos
 
